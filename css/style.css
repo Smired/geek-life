@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "VarelaRound-Regular";
+  src: url("../fonts/VarelaRound-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "VarelaRound-Regular", Helvetica, sans-serif !important;
+  background-color: #202328 !important;
+}
+body .slider {
+  background-color: #2a2d34;
+  margin: 20px auto 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5vw;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+}
+body .slider div {
+  width: 100%;
+}
+body .slider div a {
+  background-color: #2a2d34;
+}
+body .slider div a img {
+  display: block;
+  width: 15vw;
+  margin-left: 0.2vw;
+  border-radius: 10px;
+}
+body .container {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #2a2d34;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  color: #fff;
+  margin-bottom: 10px;
+  width: 80vw;
+}
+body .container img {
+  width: 100%;
+  border-radius: 10px;
+}
+body .container a {
+  color: #fff;
+}
+body footer {
+  width: 100%;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+}
+body footer .wrap {
+  width: 80vw;
+  margin: auto;
+  padding: 2vw 2px;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .wrap p {
+  color: #fff;
+  margin: 5px;
+}
+body footer .wrap a {
+  color: blue;
+  text-decoration: none;
+}
+body footer .wrap ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  padding: 0;
+  margin: 0;
+}
+body footer .wrap ul img {
+  width: 40px;
+  transition: 0.5s;
+}
+body footer .wrap ul img:hover {
+  transform: scale(1.1);
+}
